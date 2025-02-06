@@ -1,0 +1,160 @@
+button{
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#b1{
+    background-color: rgb(211, 31, 31);
+    padding: 10px;
+    border: none;
+    border-radius: 3px ;
+    color: aliceblue;
+    transition: opacity, 0.2s; /* transition element always comes in base css style as it won't work for when we out of pseudo class */
+}
+#b1:hover{ /*hover- one of the pseudo class(styles to add in particular situation)*/
+    opacity: 0.8;
+}
+#b2{
+    background-color: transparent;
+    padding:8px;
+    width: 70px;
+    border-color: rgb(4, 122, 218);
+    border-radius: 3px ;
+    border-style: solid;
+    border-width: 2px;
+    color:rgb(4, 122, 218);
+    transition: background-color 0.5s, color 0.5s;
+}
+#b2:hover{
+    background-color:  rgb(4, 122, 218);
+    color: white;
+}
+#b3{
+    background-color: rgb(0, 140, 255);
+    padding: 10px;
+    width: 77px;
+    border: none;
+    border-radius: 25px;
+    color:rgb(255,255,255);
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+#b3:hover{
+ box-shadow: 0px 5px 15px rgba(0,0,0,0.25); /*a-opacity of the colour from 0 to 1*/
+}
+#b4{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 125px;
+    transition: opacity 0.15s;
+}
+#b4:hover{
+    opacity: 0.6;
+}
+#b5{
+    background-color: rgb(255, 216, 20);
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.2s;
+}
+#b5:hover{
+    background-color: rgb(251, 237, 74);
+}
+#b6{
+    background-color: rgb(255, 164, 28);
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    border: none;
+    margin-left:auto ;
+    transition: all 0.15s;
+}
+#b6:hover{
+    background-color: rgb(255, 153, 0);
+}
+#b7{
+    background-color: rgb(46, 164, 79);
+    height: 37px;
+    width: 90px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#b7:hover{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+}
+#b8{
+    background-color: rgb(224, 76, 76);
+    height: 37px;
+    width: 90px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    margin-left: 0.3px;
+    transition: all 0.3s;
+}
+#b8:hover{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+}
+#b9{
+    background-color: rgb(121,82, 179);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#b9:hover{
+    opacity: 0.8;
+}
+#b10{
+    background-color: transparent;
+    color: rgb(108,117,125);
+    border: solid rgb(108,117,125) 1.5px;
+    border-radius: 3px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    margin-left: auto;
+    transition: all 0.5s;
+}
+#b10:hover{
+    background-color: rgb(108,117,125) ;
+    color: white;
+}
+#b11{
+    color: white;
+    background-color: rgb(10,102,194);
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 35px ;
+    width: 250px;
+    transition: all 0.5s;
+}
+#b11:hover{
+    background-color: rgb(6, 75, 145) ;
+}
+#b12{
+    background-color: transparent;
+    color: rgb(10,102,194);
+    font-weight: bold;
+    border: solid rgb(10,102,194) 1px;
+    border-radius: 20px;
+    height: 35px ;
+    width: 80px;
+    margin-left: auto;
+    transition: all 0.5s;
+}
+#b12:hover{
+    background-color: rgb(193, 220, 231) ;
+    border-width: 2.5px;
+}
