@@ -3,6 +3,7 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
+/* medium level buttons styling */
 #b1{
     background-color: rgb(211, 31, 31);
     padding: 10px;
@@ -157,4 +158,105 @@ button{
 #b12:hover{
     background-color: rgb(193, 220, 231) ;
     border-width: 2.5px;
+}
+/* medium level buttons styling */
+.box1{
+    background-color: rgb(23, 23, 59);
+    width: fit-content;
+    height: fit-content;
+}
+.Mid{
+    height: 39px;
+    width: 110px;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#m1{
+    background-color: transparent;
+    border: solid rgb(197, 36, 36) 2px;
+    border-radius: 6px;
+    color: rgb(197, 36, 36);
+    transition: all 0.3s;
+}
+#m1:hover{
+    background-color: rgb(197, 36, 36);
+    color: white;
+}
+#m2{
+    background-color: rgb(0, 140, 255); 
+    border: solid rgb(0, 140, 255) 2px;
+    border-radius: 6px;
+    color: white;
+    transition: all 0.15s;
+}
+#m2:hover{
+    background:none;
+    border: solid rgb(0, 140, 255) 1.5px;
+    box-shadow: 0 0 15px  rgba(134, 217, 255, 0.8);
+}
+#m3{
+    background: linear-gradient(45deg, rgb(251,237,74) 50%,transparent 50%);
+    background-size: 300%;
+    background-position: 100%;
+    color: white;
+    border: solid rgb(251, 237, 74) 2px;
+    border-radius: 6px;
+    transition: all 1s;
+}
+#m3:hover{
+    background-position: 0;
+    background-color: rgb(251, 237, 74);
+}
+#m4{
+    background-color: rgb(89, 189, 146);
+    border: solid rgb(62, 172, 123) 1.5px;
+    border-radius: 25px;
+    color: white;
+}
+#m5{
+    background:linear-gradient(45deg,transparent 50%,purple 50%);
+    background-size: 300%;
+    background-position: 100%;
+    color: white;
+    border: solid purple 2px;
+    transition: all 1s;
+}
+#m5:hover{
+    background-position: 0;
+    background-color: purple;
+    color: white;
+}
+#m6{
+    background: linear-gradient(transparent 50%,rgb(17, 193, 17)50%);
+    border: solid rgb(17, 193, 17) 2px;
+    border-radius: 19px;
+    color: rgb(17, 193, 17);
+    transition: 0.8s;
+}
+#m6:hover{
+    color: white;
+}
+
+.box2{
+    background-color: rgb(80, 187, 139);
+    width: 180px;
+    height: 270px;
+    margin-top: 15px;
+    text-align: center ;
+}
+.box2_btns{
+    background-color: white;
+    box-shadow: 10px 8px 0px rgb(255, 216, 20);
+    border: none;
+    height: 39px;
+    width: 110px;
+    font-weight: bold;
+    margin-left: 4px;
+    transition: all 0.8s;
+}
+.box2_btns:hover{
+    background-color: rgb(255, 216, 20);
+    box-shadow: -10px -8px 0px white;
+    border: none;
 }
