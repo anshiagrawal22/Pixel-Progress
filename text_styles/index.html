@@ -9,15 +9,21 @@
         }
         #container{
             background-color: black;
-            height: 400px;
-            width: 1000px;
-            margin: 200px 250px 200px 250px;
+            height: 713px;
+            width: 700px;
+            margin: 20px 250px 200px 415px;
+            text-align: left;
+            border: solid white 1px;
+            border-radius: 15px;
         }
         
         .text{
            padding-left: 20px;
            font-family: Arial, Helvetica, sans-serif;
            font-size: 20px;
+        }
+        #tag{
+            color: white;
         }
         button{
             background-color: white;
@@ -26,34 +32,49 @@
             border: none;
             border-radius: 50%;
             margin-left: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            border: solid white 1px;
+        }
+        button:active{
+            opacity: 0.7;
         }
         #buttoncontainer{
             padding-left: 15px;
+            padding-top:15px ;
         }
     </style>
 </head> 
 <body>
 
 <div id="container">
-    <div id="buttoncontainer">
+    <div id="buttoncontainer"> <!--buttons-->
         <button style="background-color: rgb(188, 47, 47);"></button>
         <button style="background-color: rgb(255, 216, 59);"></button>
         <button style="background-color: rgb(49, 170, 49);"></button> </div>
-        <p class="text" style="color: aliceblue;">🛠️&lt; system booting ... &gt;</p>
-        <p class="text" style="color: aliceblue;">&lt; USER STATUS&gt;</p>
-        <p class="text" style="color: rgb(255, 216, 59);">🚀 **Level Up in Progress**... Keep going, warrior!</p>
-        <p class="text" style="color: aliceblue;">&lt; /USER STATUS&gt;</p>
-        <p class="text" style="color: rgb(255, 216, 59);">&lt; question log&gt;</p>
-        <p class="text" style="color: rgb(188, 47, 47);"> <span style="color: rgb(49, 170, 49);"> Mission: </span>Stay consistent and level up daily!</p>
-        <p class="text" style="color: rgb(188, 47, 47);"> <span style="color: rgb(49, 170, 49);"> Objectives: </span> <br><b>Gain XP</b> by learning something new <br>  
-            <b>Defeat Debug Monsters</b> in coding battles  <br>
-            <b>Power Up</b> with exercise & self-care  </p>
-        <p class="text" style="color: rgb(255, 216, 59);">&lt; /question log&gt;</p> 
-        <p class="text" style="color: rgb(255, 216, 59);">&lt; focus mode&gt;</p>
-        <p class="text" style="color: rgb(188, 47, 47);"> <span style="color: rgb(49, 170, 49);"> Action Plan: </span>🧠 THINK > 💻 CODE > ☕ BREAK > 🔄 REPEAT</p>
-        <p class="text" style="color: rgb(255, 216, 59);">&lt;/focus mode&gt;</p>
+<!--START-->
+<p class="text" id="tag">🛠️&lt;system booting... &gt;</p>
+<p class="text" id="tag">&lt;user status&gt;</p> <!--user status tag-->
+<p class="text" style="color: rgb(255, 216, 59);">**Level Up in Progress**... Keep going, warrior!⚔️</p>
+<p class="text" id="tag">&lt;/user status&gt;</p>
 
-        <p class="text" style="color: aliceblue;">🛠️&lt; shutting down the log ... &gt;</p>
+<p class="text" id="tag">&lt;Quest log&gt;</p> <!--Quest log tag-->
+<p class="text" style="color: rgb(188, 47, 47);"> <span style="color: rgb(49, 170, 49);"> Mission: </span>Stay consistent and level up daily!🚀</p>
+<p class="text" style="color: rgb(188, 47, 47);"> <span style="color: rgb(49, 170, 49);"> Objectives: </span><br>
+    <span style="color: rgb(255, 216, 59);">🌟Gain XP</span> by learning something new <br>  
+    <span style="color: rgb(255, 216, 59);">👾Defeat Debug Monsters</span> in coding battles<br>
+    <span style="color: rgb(255, 216, 59);">🍄Power Up</span> with exercise & self-care</p>
+<p class="text" id="tag">&lt;/Quest log&gt;</p> 
+
+<p class="text" id="tag">&lt;power moves&gt;</p> <!--power moves tag-->
+<p class="text" style="color: rgb(188, 47, 47);">  
+    <span style="color: rgb(49, 170, 49);">⚡Energy Boost Applied:</span> +10 Productivity<br>
+    <span style="color: rgb(49, 170, 49);">🔕Do Not Disturb Mode:</span> Interruptions blocked.<br>
+    <span style="color: rgb(49, 170, 49);">🎯GamePlay Mode:</span>🕹️ Plan > 💻 Build > ☕ Refuel > 💪 Master</p> 
+<p class="text" id="tag">&lt;/power moves&gt;</p> 
+<p class="text" id="tag">🛠️&lt; shutting down the log ... &gt;</p>
+<!--END-->
 </div>
 </body>
 </html>
