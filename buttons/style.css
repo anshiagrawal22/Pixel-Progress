@@ -13,7 +13,7 @@ button{
     transition: opacity, 0.2s; /* transition element always comes in base css style as it won't work for when we out of pseudo class */
 }
 #b1:hover{ /*hover- one of the pseudo class(styles to add in particular situation)*/
-    opacity: 0.8;
+    opacity: 0.8; /* takes value btwn 0 to 1*/
 }
 #b2{
     background-color: transparent;
@@ -42,6 +42,7 @@ button{
 }
 #b3:hover{
  box-shadow: 0px 5px 15px rgba(0,0,0,0.25); /*a-opacity of the colour from 0 to 1*/
+ /*box-shadow: horizontal postion, vertical postion, blur, color*/
 }
 #b4{
     background-color: black;
